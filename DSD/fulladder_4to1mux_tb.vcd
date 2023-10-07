@@ -1,0 +1,117 @@
+$date
+	Tue Sep 19 20:37:42 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module fulladder_4to1mux_tb $end
+$var wire 1 ! s $end
+$var wire 1 " c $end
+$var reg 1 # a $end
+$var reg 1 $ b $end
+$var reg 1 % cin $end
+$scope module f1 $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 % cin $end
+$var wire 1 ! s $end
+$var wire 4 & m2 [0:3] $end
+$var wire 4 ' m1 [0:3] $end
+$var wire 2 ( d [1:0] $end
+$var wire 1 " c $end
+$scope module s0 $end
+$var wire 2 ) s [1:0] $end
+$var wire 4 * w [0:3] $end
+$var reg 1 ! f $end
+$upscope $end
+$scope module s1 $end
+$var wire 2 + s [1:0] $end
+$var wire 4 , w [0:3] $end
+$var reg 1 " f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 ,
+b0 +
+b110 *
+b0 )
+b0 (
+b110 '
+b1 &
+0%
+0$
+0#
+0"
+0!
+$end
+#20
+1!
+b1001 '
+b1001 *
+b111 &
+b111 ,
+1$
+#40
+1!
+b110 '
+b110 *
+b1 &
+b1 ,
+0$
+b1 (
+b1 )
+b1 +
+1#
+#60
+0!
+1"
+b1001 '
+b1001 *
+b111 &
+b111 ,
+1$
+#80
+1!
+0"
+b110 '
+b110 *
+b1 &
+b1 ,
+0$
+0#
+b10 (
+b10 )
+b10 +
+1%
+#100
+0!
+1"
+b1001 '
+b1001 *
+b111 &
+b111 ,
+1$
+#120
+b110 '
+b110 *
+b1 &
+b1 ,
+0$
+b11 (
+b11 )
+b11 +
+1#
+#140
+1!
+b1001 '
+b1001 *
+b111 &
+b111 ,
+1$
+#160

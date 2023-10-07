@@ -1,0 +1,50 @@
+$date
+	Wed Sep 20 23:19:24 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module PEn4to2_tb $end
+$var wire 1 ! z $end
+$var wire 2 " y [1:0] $end
+$var reg 4 # w [3:0] $end
+$scope module p1 $end
+$var wire 4 $ w [3:0] $end
+$var reg 2 % y [1:0] $end
+$var reg 1 ! z $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11 %
+b1000 $
+b1000 #
+b11 "
+1!
+$end
+#20
+b10 "
+b10 %
+b100 #
+b100 $
+#40
+b1 "
+b1 %
+b10 #
+b10 $
+#60
+b0 "
+b0 %
+b1 #
+b1 $
+#80
+0!
+bx "
+bx %
+b0 #
+b0 $
+#100

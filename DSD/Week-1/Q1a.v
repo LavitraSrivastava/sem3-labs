@@ -1,0 +1,5 @@
+module Q1a(f,a,b,c,d);
+input a,b,c,d;
+output f;
+assign f = c | (a&d);
+endmodule

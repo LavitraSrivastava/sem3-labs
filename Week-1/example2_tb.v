@@ -1,0 +1,36 @@
+`timescale 1ns/1ns
+`include "example2.v"
+
+module example2_tb;
+reg x1,x2,x3,x4;
+wire f;
+
+example2 e2(x1,x2,x3,x4,f);
+initial begin
+
+	$dumpfile("example2_tb.vcd");
+	$dumpvars(0,example2_tb);
+	
+	x1=0;x2=0;x3=0;x4=0;#20;
+	x1=0;x2=0;x3=0;x4=1;#20;
+	x1=0;x2=0;x3=1;x4=0;#20;
+	x1=0;x2=0;x3=1;x4=1;#20;
+	x1=0;x2=1;x3=0;x4=0;#20;
+	x1=0;x2=1;x3=0;x4=1;#20;
+	x1=0;x2=1;x3=1;x4=0;#20;
+	x1=0;x2=1;x3=1;x4=1;#20;
+	x1=1;x2=0;x3=0;x4=0;#20;
+	x1=1;x2=0;x3=0;x4=1;#20;
+	x1=1;x2=0;x3=1;x4=0;#20;
+	x1=1;x2=0;x3=1;x4=1;#20;
+	x1=1;x2=1;x3=0;x4=0;#20;
+	x1=1;x2=1;x3=0;x4=1;#20;
+	x1=1;x2=1;x3=1;x4=0;#20;
+	x1=1;x2=1;x3=1;x4=1;#20;
+	
+	$display("Test complete");
+	
+end
+
+endmodule
+
